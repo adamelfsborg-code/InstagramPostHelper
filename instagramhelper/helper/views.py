@@ -5,4 +5,4 @@ from django.views import View
 # Create your views here.
 class HelperMainView(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'helper.html')
+        return render(request, 'helper.html', content_type='text/html')

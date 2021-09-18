@@ -2,17 +2,17 @@
 {% load static %}
 
 {% block styles %}
-<link rel="stylesheet" href="{% static 'css/helper.css' %}">
+<link rel="stylesheet" href="{% static '/css/helper.css' %}">
 {% endblock %}
 
 {% block content %}
     <div class="row">
-        <div class="col">
-            <h4>HELLO</h4>
+        <div class="col d-flex flex-column">
+            <button class="btn btn-outline-dark btn-sm">Add new</button>
         </div>
     </div>
 {% endblock %}
 
 {% block scripts %}
-<script src="{% static 'js/helper.js' %}"></script>
+<script src="{% static '/js/helper.js' %}"></script>
 {% endblock %}
